@@ -19,6 +19,7 @@ body {
     top: 0em;
     left: 0em;
     color: rgb(83, 175, 19);
+    font-size: 2.5em;
 }
 table {
     position: absolute;
@@ -31,18 +32,6 @@ td {
     height: 9.4em;
     cursor: pointer;
 }
-/*form {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 1.5em;
-    background-color: rgb(83, 185, 113);
-}
-form input {
-    background-color: rgb(152, 207, 113);
-    border-color: rgb(83, 185, 19);
-    font-size: 1em;
-}*/
 .hit {
     background: url("../imgs/ship.png") no-repeat center center;
 }
