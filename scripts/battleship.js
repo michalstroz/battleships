@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const view = {
     displayMessage: function (msg) {
@@ -191,6 +191,7 @@ const controller = {
                 alert("Congratulations, you sank all ships in " + this.guesses + " moves. Click ok and play again.");
                 view.clearBoard();
                 model.clearShips();
+                this.guesses = 0;
                 model.generateShipLocations();
             }
         }
